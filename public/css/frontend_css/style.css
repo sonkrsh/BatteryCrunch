@@ -1,0 +1,207 @@
+.select_vechile{
+    position: relative;
+    display: flex;
+ 
+}
+.select_vechile h5{
+    margin: 0rem;
+    /* display: block; */
+    padding: 0rem;
+    border-right: none;
+    width: 17%;
+    /* height: calc(1.5em + .75rem + 2px); */
+    padding: .375rem .75rem;
+    /* font-size: 1rem; */
+    /* font-weight: 400; */
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border-bottom: 1px solid #ced4da;
+    background-clip: padding-box;
+    border-top: 1px solid #ced4da;
+    border-left: none;
+    border-left: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+ 
+}
+.select_vechile_top{
+    padding-top: 3rem;
+}
+#contact_no{
+    border-left: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+.gsc-ta-clickWrap{
+    border: none;
+    margin-top: 14px;
+    height: auto;
+    overflow: inherit;
+}
+.search{
+    padding: 0rem 2.5rem;
+}
+#location{
+    display: none;
+}
+#location_b2{
+    display: none;
+}
+.call_back{
+    padding: 0rem 2.5rem;
+}
+#get_strt{
+    width: 100%;
+}
+.box{
+    padding: 1.4rem 2.6rem;
+    border: solid;
+    border-width: thin;
+    border-radius: 15px;
+}.batter_req{
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.car_battery{
+    cursor: pointer;
+    list-style: none;
+    background: #24272c;
+    color: #fff;
+    position: relative;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+}
+.car_battery:before{    
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #24272c;
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -10px;
+    bottom: -10px;
+}
+.custom_car_battery{    
+    cursor: pointer;
+    list-style: none;
+    background: white;
+    color: black;
+    position: relative;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    border: solid;
+}
+
+.req_call{
+    list-style: none;
+    background: white;
+    color: black;
+    border: solid;
+    position: relative;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+}
+.custom_req_call{
+    list-style: none;
+    background: black;
+    color: white;
+    position: relative;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+}
+.custom_req_call:before{
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #24272c;
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -10px;
+    bottom: -10px;
+}
+.search_box1{
+    padding-top: 1rem;
+}
+.search_box2{
+    padding-top: 1rem;
+    display: none;
+}
+.get_started{
+    padding-top: 1rem;
+}
+#get_strt{
+background-color: black;
+font-size: 1.5rem;
+}
+.req_text{
+    display: none;
+}
+.fuels{
+    padding-top: 3rem;
+}
+
+
+.select_fuel_list{
+    display: none;
+    position: relative;
+}
+.fuel_search{
+    display: none;
+    position: relative;
+}
+#fuel_list{
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    height: 8rem;
+}
+
+.get_started_top{
+padding-top: 4rem;
+}
+
+.select_car {
+      position: absolute;
+      width: 100%;
+      height: 11rem;
+      overflow: auto;
+      display: none;
+    }
+      .select_model{
+        position: absolute;
+      width: 100%;
+      height: 11rem;
+      overflow: auto;
+      display: none;
+        display: none;
+      }
+    
+    .main_search {
+      position: absolute;
+      pointer-events: none;
+    }
+    
+    ul li {
+      cursor: pointer;
+    }
+    .all_battery{
+        display: flex;
+    }
+    .product{
+        display: flex;
+    /* border: saddlebrown; */
+    border: solid;
+    /* align-items: center; */
+    padding: 1rem;
+    border-width: thin;
+    border-radius: 1rem;
+    flex-direction: column;
+    align-items: center;
+    }
